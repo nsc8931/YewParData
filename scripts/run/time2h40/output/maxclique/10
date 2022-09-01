@@ -1,0 +1,10 @@
+CMD: timeout 2h /users/pgt/2637692c/Workspace/MSc/YewPar/build/install/bin/maxclique-14 -f /users/pgt/2637692c/Workspace/MSc/instances/maxclique/brock400_2.clq --skeleton basicrandom --spawn-probability 1000000 --hpx:threads 2 --hpx:ini=hpx.stacks.large_size=0x2000000 --hpx:print-counter /workstealing/depthpool/spawns --hpx:print-counter /workstealing/depthpool/distributedFailedSteals --hpx:print-counter /workstealing/depthpool/distributedSteals --hpx:print-counter /workstealing/depthpool/localFailedSteals --hpx:print-counter /workstealing/depthpool/localSteals
+PROBABILITY: 1000000
+HOSTS: 1
+MaxClique Size = 29
+cpu = 542767
+/workstealing{locality#0/total}/depthpool/spawns,1,543.162943,[s],11398
+/workstealing{locality#0/total}/depthpool/distributedFailedSteals,1,543.162951,[s],0
+/workstealing{locality#0/total}/depthpool/distributedSteals,1,543.163005,[s],0
+/workstealing{locality#0/total}/depthpool/localFailedSteals,1,543.163011,[s],2
+/workstealing{locality#0/total}/depthpool/localSteals,1,543.163009,[s],11398

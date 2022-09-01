@@ -1,0 +1,45 @@
+CMD: timeout 2h /users/pgt/2637692c/Workspace/MSc/YewPar/build/install/bin/maxclique-14 -f /users/pgt/2637692c/Workspace/MSc/instances/maxclique/brock800_4.clq --skeleton basicrandom --spawn-probability 1000000 --hpx:threads 16 --hpx:ini=hpx.stacks.large_size=0x2000000 --hpx:print-counter /workstealing/depthpool/spawns --hpx:print-counter /workstealing/depthpool/distributedFailedSteals --hpx:print-counter /workstealing/depthpool/distributedSteals --hpx:print-counter /workstealing/depthpool/localFailedSteals --hpx:print-counter /workstealing/depthpool/localSteals
+PROBABILITY: 1000000
+HOSTS: 8
+MaxClique Size = 26
+cpu = 201592
+/workstealing{locality#0/total}/depthpool/spawns,1,202.195903,[s],14278
+/workstealing{locality#1/total}/depthpool/spawns,1,202.193557,[s],12100
+/workstealing{locality#2/total}/depthpool/spawns,1,202.193993,[s],13458
+/workstealing{locality#3/total}/depthpool/spawns,1,202.193473,[s],12499
+/workstealing{locality#4/total}/depthpool/spawns,1,202.193539,[s],12154
+/workstealing{locality#5/total}/depthpool/spawns,1,202.193801,[s],11108
+/workstealing{locality#6/total}/depthpool/spawns,1,202.192709,[s],11878
+/workstealing{locality#7/total}/depthpool/spawns,1,202.192819,[s],11891
+/workstealing{locality#0/total}/depthpool/distributedFailedSteals,1,202.196518,[s],317
+/workstealing{locality#1/total}/depthpool/distributedFailedSteals,1,202.193908,[s],303
+/workstealing{locality#2/total}/depthpool/distributedFailedSteals,1,202.194487,[s],318
+/workstealing{locality#3/total}/depthpool/distributedFailedSteals,1,202.193761,[s],320
+/workstealing{locality#4/total}/depthpool/distributedFailedSteals,1,202.194705,[s],344
+/workstealing{locality#5/total}/depthpool/distributedFailedSteals,1,202.193881,[s],326
+/workstealing{locality#6/total}/depthpool/distributedFailedSteals,1,202.193071,[s],330
+/workstealing{locality#7/total}/depthpool/distributedFailedSteals,1,202.193938,[s],347
+/workstealing{locality#0/total}/depthpool/distributedSteals,1,202.196686,[s],26
+/workstealing{locality#1/total}/depthpool/distributedSteals,1,202.194309,[s],109
+/workstealing{locality#2/total}/depthpool/distributedSteals,1,202.194868,[s],81
+/workstealing{locality#3/total}/depthpool/distributedSteals,1,202.193877,[s],130
+/workstealing{locality#4/total}/depthpool/distributedSteals,1,202.194415,[s],145
+/workstealing{locality#5/total}/depthpool/distributedSteals,1,202.194226,[s],159
+/workstealing{locality#6/total}/depthpool/distributedSteals,1,202.193633,[s],38
+/workstealing{locality#7/total}/depthpool/distributedSteals,1,202.194150,[s],138
+/workstealing{locality#0/total}/depthpool/localFailedSteals,1,202.197004,[s],341
+/workstealing{locality#1/total}/depthpool/localFailedSteals,1,202.195341,[s],409
+/workstealing{locality#2/total}/depthpool/localFailedSteals,1,202.194968,[s],398
+/workstealing{locality#3/total}/depthpool/localFailedSteals,1,202.194296,[s],447
+/workstealing{locality#4/total}/depthpool/localFailedSteals,1,202.194657,[s],486
+/workstealing{locality#5/total}/depthpool/localFailedSteals,1,202.194899,[s],482
+/workstealing{locality#6/total}/depthpool/localFailedSteals,1,202.194501,[s],366
+/workstealing{locality#7/total}/depthpool/localFailedSteals,1,202.194348,[s],483
+/workstealing{locality#0/total}/depthpool/localSteals,1,202.197160,[s],13594
+/workstealing{locality#1/total}/depthpool/localSteals,1,202.195239,[s],12100
+/workstealing{locality#2/total}/depthpool/localSteals,1,202.195488,[s],13344
+/workstealing{locality#3/total}/depthpool/localSteals,1,202.194480,[s],12499
+/workstealing{locality#4/total}/depthpool/localSteals,1,202.194634,[s],12154
+/workstealing{locality#5/total}/depthpool/localSteals,1,202.195158,[s],11108
+/workstealing{locality#6/total}/depthpool/localSteals,1,202.194146,[s],11850
+/workstealing{locality#7/total}/depthpool/localSteals,1,202.194874,[s],11891

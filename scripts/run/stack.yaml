@@ -1,0 +1,5 @@
+resolver: lts-9.13
+packages:
+  - location:
+      git: git@github.com:BlairArchibald/HSLauncher.git
+      commit: eca5f21b1abcc660315d5fd5cba1ae805a160e0b

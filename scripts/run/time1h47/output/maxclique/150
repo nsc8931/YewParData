@@ -1,0 +1,25 @@
+CMD: timeout 1h /users/pgt/2637692c/Workspace/MSc/YewPar/build/install/bin/maxclique-14 -f /users/pgt/2637692c/Workspace/MSc/instances/maxclique/brock400_2.clq --skeleton basicrandom --spawn-probability 100000 --hpx:threads 16 --hpx:ini=hpx.stacks.large_size=0x2000000 --hpx:print-counter /workstealing/depthpool/spawns --hpx:print-counter /workstealing/depthpool/distributedFailedSteals --hpx:print-counter /workstealing/depthpool/distributedSteals --hpx:print-counter /workstealing/depthpool/localFailedSteals --hpx:print-counter /workstealing/depthpool/localSteals
+PROBABILITY: 100000
+HOSTS: 4
+MaxClique Size = 29
+cpu = 148860
+/workstealing{locality#0/total}/depthpool/spawns,1,149.038131,[s],22802
+/workstealing{locality#1/total}/depthpool/spawns,1,149.035562,[s],23083
+/workstealing{locality#2/total}/depthpool/spawns,1,149.036061,[s],22008
+/workstealing{locality#3/total}/depthpool/spawns,1,149.036125,[s],22303
+/workstealing{locality#0/total}/depthpool/distributedFailedSteals,1,149.038175,[s],281
+/workstealing{locality#1/total}/depthpool/distributedFailedSteals,1,149.035733,[s],260
+/workstealing{locality#2/total}/depthpool/distributedFailedSteals,1,149.035116,[s],276
+/workstealing{locality#3/total}/depthpool/distributedFailedSteals,1,149.035729,[s],267
+/workstealing{locality#0/total}/depthpool/distributedSteals,1,149.038273,[s],102
+/workstealing{locality#1/total}/depthpool/distributedSteals,1,149.036230,[s],45
+/workstealing{locality#2/total}/depthpool/distributedSteals,1,149.035284,[s],78
+/workstealing{locality#3/total}/depthpool/distributedSteals,1,149.036178,[s],29
+/workstealing{locality#0/total}/depthpool/localFailedSteals,1,149.038658,[s],380
+/workstealing{locality#1/total}/depthpool/localFailedSteals,1,149.036287,[s],303
+/workstealing{locality#2/total}/depthpool/localFailedSteals,1,149.035749,[s],352
+/workstealing{locality#3/total}/depthpool/localFailedSteals,1,149.036226,[s],295
+/workstealing{locality#0/total}/depthpool/localSteals,1,149.038475,[s],22801
+/workstealing{locality#1/total}/depthpool/localSteals,1,149.037086,[s],22929
+/workstealing{locality#2/total}/depthpool/localSteals,1,149.035581,[s],21994
+/workstealing{locality#3/total}/depthpool/localSteals,1,149.035567,[s],22218
