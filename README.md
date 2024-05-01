@@ -1,6 +1,6 @@
 # The data repo of Yixin Chen's MSc project
 
-## the source code can be found [Here](https://github.com/Nirvana-Chen/YewPar)
+## the source code can be found [Here](https://github.com/nsc8931/YewPar)
 
 ## instances folder 
 
